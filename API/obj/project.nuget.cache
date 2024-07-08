@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tJxCZ2DNUkU=",
+  "dgSpecHash": "vYfk0GnnzhQ=",
   "success": true,
-  "projectFilePath": "D:\\0Angular Dotnet course Udemy\\DattingApp\\API\\API.csproj",
+  "projectFilePath": "D:\\0Angular Dotnet course Udemy\\Dating-App\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\win10\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\win10\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

@@ -2539,11 +2539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\0Angular Dotnet course Udemy\\DattingApp\\API\\API.csproj",
+      "projectUniqueName": "d:\\0Angular Dotnet course Udemy\\Dating-App\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\0Angular Dotnet course Udemy\\DattingApp\\API\\API.csproj",
+      "projectPath": "d:\\0Angular Dotnet course Udemy\\Dating-App\\API\\API.csproj",
       "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
-      "outputPath": "D:\\0Angular Dotnet course Udemy\\DattingApp\\API\\obj\\",
+      "outputPath": "d:\\0Angular Dotnet course Udemy\\Dating-App\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
