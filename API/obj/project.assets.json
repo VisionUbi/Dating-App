@@ -2539,11 +2539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\0Angular Dotnet course Udemy\\Dating-App\\API\\API.csproj",
+      "projectUniqueName": "D:\\0Angular Dotnet course Udemy\\Dating-App\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "d:\\0Angular Dotnet course Udemy\\Dating-App\\API\\API.csproj",
+      "projectPath": "D:\\0Angular Dotnet course Udemy\\Dating-App\\API\\API.csproj",
       "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
-      "outputPath": "d:\\0Angular Dotnet course Udemy\\Dating-App\\API\\obj\\",
+      "outputPath": "D:\\0Angular Dotnet course Udemy\\Dating-App\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2608,7 +2608,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
