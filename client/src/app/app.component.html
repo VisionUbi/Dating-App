@@ -1,4 +1,9 @@
-<div *ngFor="let item of users">
+<app-navbar></app-navbar>
 
-    <h1>{{item.userName}}</h1>
+<div class="container" style="margin-top: 100px;">
+  <ul >
+    <li *ngFor="let user of users">
+      {{user.id}} -- {{user.userName}}
+    </li>
+  </ul>
 </div>
