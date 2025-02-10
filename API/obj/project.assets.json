@@ -2534,19 +2534,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\win10\\.nuget\\packages\\": {}
+    "C:\\Users\\ubaid.k\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\0Angular Dotnet course Udemy\\Dating-App\\API\\API.csproj",
+      "projectUniqueName": "D:\\StudentAssets\\Learning-App\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\0Angular Dotnet course Udemy\\Dating-App\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
-      "outputPath": "D:\\0Angular Dotnet course Udemy\\Dating-App\\API\\obj\\",
+      "projectPath": "D:\\StudentAssets\\Learning-App\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\ubaid.k\\.nuget\\packages\\",
+      "outputPath": "D:\\StudentAssets\\Learning-App\\API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ubaid.k\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
