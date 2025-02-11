@@ -2848,11 +2848,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\StudentAssets\\Dating-App\\API\\API.csproj",
+      "projectUniqueName": "D:\\StudentAssets\\Learning-App\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\StudentAssets\\Dating-App\\API\\API.csproj",
+      "projectPath": "D:\\StudentAssets\\Learning-App\\API\\API.csproj",
       "packagesPath": "C:\\Users\\ubaid.k\\.nuget\\packages\\",
-      "outputPath": "D:\\StudentAssets\\Dating-App\\API\\obj\\",
+      "outputPath": "D:\\StudentAssets\\Learning-App\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
