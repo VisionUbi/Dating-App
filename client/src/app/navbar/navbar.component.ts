@@ -1,13 +1,14 @@
 import { Component, Inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { AccountService } from '../_services/account.service';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule,BsDropdownModule],
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css'], // Changed `styleUrl` to `styleUrls`
+  styleUrls: ['./navbar.component.css'],  
 })
 export class NavbarComponent {
   model: any = {};
@@ -16,9 +17,19 @@ export class NavbarComponent {
   constructor(@Inject(AccountService) private _accountService: AccountService) {} // Fixed Inject syntax
 
   login() {
-    this._accountService.login(this.model).subscribe(response => {
-      console.log(response);
-      this.loggedIn = true;
-    });
+    this._accountService.login(this.model).subscribe
+    (
+      {
+      next: response => {
+        console.log('Logged in successfully',response);
+        this.loggedIn = true;
+      },
+      error: (error) => {
+        console.log(error);
+    }})
+  }
+  logout() {
+    this.loggedIn = false;
   }
 }
+ 

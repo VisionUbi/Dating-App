@@ -2,7 +2,8 @@
     <div class="container">
       <a class="navbar-brand" href="#">Learning App</a> 
   
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+       @if (loggedIn) {
+        <ul class="navbar-nav me-auto mb-2 mb-md-0" >
           <li class="nav-item">
             <a class="nav-link"  >Matches</a>
           </li>
@@ -12,8 +13,24 @@
           <li class="nav-item">
             <a class="nav-link" >Messages</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="logout()" >Logout</a>
+          </li>
         </ul>
+       }
+
+       @if(loggedIn) 
+       {
+         <div class="dropdown">
+          <a href="" class="dropdown-toggle textlight">Welcome User</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item">Edit Profile</a>
+            <a class="dropdown-item" (click)="logout()">Logout</a>
+          </div>
+         </div>
+       }
   
+       @if(!loggedIn){
         <form class="d-flex" (ngSubmit)="login()">
           <input
           name="userName"
@@ -28,5 +45,7 @@
           type="password">
           <button class="btn btn-outline-success" type="submit">Login</button>
         </form> 
+       }
+        
     </div>
   </nav>
