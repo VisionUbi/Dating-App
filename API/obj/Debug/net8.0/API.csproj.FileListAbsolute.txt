@@ -374,3 +374,7 @@ D:\StudentAssets\Learning-App\API\obj\Debug\net8.0\refint\API.dll
 D:\StudentAssets\Learning-App\API\obj\Debug\net8.0\API.pdb
 D:\StudentAssets\Learning-App\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 D:\StudentAssets\Learning-App\API\obj\Debug\net8.0\ref\API.dll
+D:\StudentAssets\Learning-App\API\bin\Debug\net8.0\API.staticwebassets.endpoints.json
+D:\StudentAssets\Learning-App\API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\StudentAssets\Learning-App\API\obj\Debug\net8.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\StudentAssets\Learning-App\API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
