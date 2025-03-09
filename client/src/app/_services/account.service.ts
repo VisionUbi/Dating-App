@@ -7,7 +7,7 @@ import { User } from '../_models/user';
   providedIn: 'root'
 })
 export class AccountService {
-  private baseUrl = 'https://localhost:5000/api/';
+  private baseUrl = 'https://localhost:5001/api/';
   currentUser = signal<User | null>(null);  
 
   constructor(private http: HttpClient) {} // Fixed Inject syntax
@@ -30,6 +30,7 @@ export class AccountService {
           localStorage.setItem('user', JSON.stringify(user));
           this.currentUser.set(user);
         }
+        return user;
       })
     )
   }

@@ -12,14 +12,7 @@
       required
     />
 
-    <div class="mb-3">
-      <label >Who is your favorite user?</label>
-      <select class="form-select">
-        @for (item of usersFromHomeComponent(); track $index) {
-          <option value="{{item.userName}}">{{item.userName}}</option>
-        }
-      </select>
-    </div>
+ 
 
     <label for="userName">Username</label>
   </div>
