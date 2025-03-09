@@ -9,11 +9,13 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './register.component.css'
 })
 export class RegisterComponent {
-  @Input() usersFromHomeComponent: any;
+@Input() usersFromHomeComponent: any;
 model : any = {};
 
 register(){
   console.log(this.model);
+  console.log(this.usersFromHomeComponent);
+
 }
 cancel(){
   console.log('canceled');

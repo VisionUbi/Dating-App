@@ -12,8 +12,7 @@ import { RegisterComponent } from "../register/register.component";
 export class HomeComponent  implements OnInit {
   http = inject(HttpClient);
   users:any;
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
+  ngOnInit(): void { 
     this.getUsers();
   }
   registerMode = true;
