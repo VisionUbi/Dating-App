@@ -1,4 +1,4 @@
-import { Component, Inject } from '@angular/core';
+import { Component, inject, Inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { AccountService } from '../_services/account.service';
@@ -11,8 +11,8 @@ import { AccountService } from '../_services/account.service';
   styleUrls: ['./navbar.component.css'],  
 })
 export class NavbarComponent {
-  model: any = {};
-  loggedIn: boolean = false;
+  model: any = {}; 
+  accountService = inject(AccountService);
 
   constructor(@Inject(AccountService) private _accountService: AccountService) {} // Fixed Inject syntax
 
@@ -22,14 +22,13 @@ export class NavbarComponent {
       {
       next: response => {
         console.log('Logged in successfully',response);
-        this.loggedIn = true;
       },
       error: (error) => {
         console.log(error);
     }})
   }
   logout() {
-    this.loggedIn = false;
+    this.accountService.logout();
   }
 }
  
