@@ -2,6 +2,7 @@ import { Component, inject, Inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router, RouterLink, RouterLinkActive } from '@angular/router';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { ToastrService } from 'ngx-toastr';
 import { AccountService } from '../_services/account.service';
 
 @Component({
@@ -14,6 +15,7 @@ import { AccountService } from '../_services/account.service';
 export class NavbarComponent {
   model: any = {}; 
   accountService = inject(AccountService);
+  private toaster = inject(ToastrService);
   router = inject(Router);
 
   constructor(@Inject(AccountService) private _accountService: AccountService) {} // Fixed Inject syntax
@@ -27,7 +29,7 @@ export class NavbarComponent {
         console.log('Logged in successfully',response);
       },
       error: (error) => {
-        console.log(error);
+        this.toaster.error(error.error);
     }})
   }
   logout() {
