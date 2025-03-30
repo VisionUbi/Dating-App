@@ -1,5 +1,6 @@
 using API.Data;
 using API.Extentions;
+using API.Middleware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.OpenApi.Models;
 
@@ -36,6 +37,7 @@ app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localho
 
  
  
+app.UseMiddleware<ExceptionMiddleware>();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

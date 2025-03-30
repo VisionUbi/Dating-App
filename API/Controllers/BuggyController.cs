@@ -25,8 +25,15 @@ namespace API.Controllers
         [HttpGet("server-error")]
         public ActionResult<AppUser> GetServerError()
         {
-            var thing = context.Users.Find(-1) ?? throw new System.Exception("A bad things happen");
-            return thing;
+            try
+            {
+                var thing = context.Users.Find(-1) ?? throw new System.Exception("A bad things happen");
+                return thing;
+            }
+            catch
+            {
+                return StatusCode(500, "Computer says no");
+            }
         }
 
 

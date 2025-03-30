@@ -5,8 +5,10 @@ namespace API.Controllers.Dtos
     public class UserRegistrationDto
     {
         [Required]
-        [MaxLength(100)]
-        public string UserName { get; set; }
-        public string Password { get; set; }
+        public string UserName { get; set; } = string.Empty;
+
+        [Required]
+        [StringLength(8, MinimumLength = 4)]
+        public string Password { get; set; } = string.Empty;
     }
 }
