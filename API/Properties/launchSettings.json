@@ -3,6 +3,7 @@
     "http": {
       "commandName": "Project",
       "environmentVariables": {
+        "launchBrowser": true,
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": true,
