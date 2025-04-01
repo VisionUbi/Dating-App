@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using API.Entities;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace API.Data;
 
