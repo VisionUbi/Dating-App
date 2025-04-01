@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using API.Extentions;
+using Microsoft.AspNetCore.Identity;
 
 namespace API.Entities;
 
@@ -20,5 +21,8 @@ public class AppUser : IdentityUser<int>
     public List<Message> MessagesSent { get; set; } = [];
     public List<Message> MessagesReceived { get; set; } = [];
     public ICollection<AppUserRole> UserRoles { get; set; } = [];
-
+    public int GetAge()
+    {
+        return DateOfBirth.CalculateAge();
+    }
 }

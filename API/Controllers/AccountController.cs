@@ -14,23 +14,24 @@ namespace API.Controllers
         [HttpPost("register")]
         public async Task<ActionResult<UserDto>> Register(UserRegistrationDto input)
         {
-            var userExists = await UserExists(input.UserName);
-            if (userExists) 
-            {
-                return BadRequest("UserName is already Taken"); 
-            }
-            using var hmac = new HMACSHA512();
-            var user = new AppUser
-            {
-                UserName = input.UserName.ToLower(),
-                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(input.Password)),
-                PasswordSalt = hmac.Key
-            };
+            return Ok(input);
+            //var userExists = await UserExists(input.UserName);
+            //if (userExists) 
+            //{
+            //    return BadRequest("UserName is already Taken"); 
+            //}
+            //using var hmac = new HMACSHA512();
+            //var user = new AppUser
+            //{
+            //    UserName = input.UserName.ToLower(),
+            //    PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(input.Password)),
+            //    PasswordSalt = hmac.Key
+            //};
 
-            context.Users.Add(user);
-            await context.SaveChangesAsync();
+            //context.Users.Add(user);
+            //await context.SaveChangesAsync();
 
-            return new UserDto { Token = tokenService.CreateToken(user)  , Username = user.UserName};
+            //return new UserDto { Token = tokenService.CreateToken(user)  , Username = user.UserName};
         }
         [HttpPost("login")]
         public async Task<ActionResult<UserDto>> Login(LoginDto input)
@@ -41,13 +42,13 @@ namespace API.Controllers
                 return Unauthorized("Invalid Username"); }
             else
             {
-                using var hmac = new HMACSHA512(user.PasswordSalt);
-                var computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes((string)input.Password));
+                //using var hmac = new HMACSHA512(user.PasswordSalt);
+                //var computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes((string)input.Password));
 
-                for (int i = 0; i < computedHash.Length; i++)
-                {
-                    if (computedHash[i] != user.PasswordHash[i]) return Unauthorized("Invalid password");
-                }
+                //for (int i = 0; i < computedHash.Length; i++)
+                //{
+                //    if (computedHash[i] != user.PasswordHash[i]) return Unauthorized("Invalid password");
+                //}
 
                 return new UserDto
                 {
