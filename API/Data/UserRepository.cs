@@ -1,6 +1,7 @@
 ﻿using API.Dtos;
 using API.Entities;
 using API.Interface;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Data
 {
@@ -13,32 +14,32 @@ namespace API.Data
 
         public async Task<AppUser?> GetUserByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await context.Users.FindAsync(id);
         }
 
-        public Task<AppUser?> GetUserByPhotoId(int photoId)
+        public async Task<AppUser?> GetUserByPhotoId(int photoId)
         {
             throw new NotImplementedException();
         }
 
-        public Task<AppUser?> GetUserByUsernameAsync(string username)
+        public async Task<AppUser?> GetUserByUsernameAsync(string username)
         {
-            throw new NotImplementedException();
+            return await context.Users.SingleOrDefaultAsync(x => x.UserName == username);
         }
 
-        public Task<IEnumerable<AppUser>> GetUsersAsync()
+        public async Task<IEnumerable<AppUser>> GetUsersAsync()
         {
-            throw new NotImplementedException();
+            return await context.Users.Include(x => x.Photos).ToListAsync();
         }
 
-        public Task<bool> SaveAllAsync()
+        public async Task<bool> SaveAllAsync()
         {
-            throw new NotImplementedException();
+            return await context.SaveChangesAsync() > 0;
         }
 
         public void Update(AppUser user)
         {
-            throw new NotImplementedException();
+            context.Entry(user).State = EntityState.Modified;
         }
     }
 }
