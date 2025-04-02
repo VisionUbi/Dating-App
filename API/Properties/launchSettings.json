@@ -2,8 +2,7 @@
   "profiles": {
     "http": {
       "commandName": "Project",
-      "environmentVariables": {
-        "launchBrowser": true,
+      "environmentVariables": { 
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": true,
