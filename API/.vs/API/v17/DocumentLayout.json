@@ -3,6 +3,70 @@
   "WorkspaceRootPath": "D:\\StudentAssets\\Learning-App\\API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\interface\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:interface\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\interface\\ilikesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:interface\\ilikesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\interface\\iphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:interface\\iphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\interface\\iphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:interface\\iphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\dtos\\createmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:dtos\\createmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\dtos\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:dtos\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\dtos\\memberupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:dtos\\memberupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\dtos\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:dtos\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\dtos\\photodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:dtos\\photodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\dtos\\photoforapprovaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:dtos\\photoforapprovaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\interface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:interface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|d:\\studentassets\\learning-app\\api\\data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{322EC2FC-856A-4523-BA92-1DD964DE1092}|API.csproj|solutionrelative:data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -66,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,7 +158,215 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MemberDto.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\MemberDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\MemberDto.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\MemberDto.cs",
+              "RelativeToolTip": "Dtos\\MemberDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:54:38.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\LoginDto.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:54:30.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateMessageDto.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\CreateMessageDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\CreateMessageDto.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\CreateMessageDto.cs",
+              "RelativeToolTip": "Dtos\\CreateMessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:54:22.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ILikesRepository.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Interface\\ILikesRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\ILikesRepository.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Interface\\ILikesRepository.cs",
+              "RelativeToolTip": "Interface\\ILikesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:51:55.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IMessageRepository.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Interface\\IMessageRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IMessageRepository.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Interface\\IMessageRepository.cs",
+              "RelativeToolTip": "Interface\\IMessageRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAawAoAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:52:16.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPhotoRepository.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Interface\\IPhotoRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IPhotoRepository.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Interface\\IPhotoRepository.cs",
+              "RelativeToolTip": "Interface\\IPhotoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:52:37.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPhotoService.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Interface\\IPhotoService.cs",
+              "RelativeDocumentMoniker": "Interface\\IPhotoService.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Interface\\IPhotoService.cs",
+              "RelativeToolTip": "Interface\\IPhotoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:52:53.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IUserRepository.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAASwAsAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:53:35.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MemberUpdateDto.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\MemberUpdateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\MemberUpdateDto.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\MemberUpdateDto.cs",
+              "RelativeToolTip": "Dtos\\MemberUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:54:51.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MessageDto.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\MessageDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\MessageDto.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\MessageDto.cs",
+              "RelativeToolTip": "Dtos\\MessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:55:03.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PhotoDto.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\PhotoDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PhotoDto.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\PhotoDto.cs",
+              "RelativeToolTip": "Dtos\\PhotoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:55:12.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PhotoForApprovalDto.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\PhotoForApprovalDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PhotoForApprovalDto.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\PhotoForApprovalDto.cs",
+              "RelativeToolTip": "Dtos\\PhotoForApprovalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:55:20.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\RegisterDto.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:55:28.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDto.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:55:39.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Interface\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Interface\\IUnitOfWork.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Interface\\IUnitOfWork.cs",
+              "RelativeToolTip": "Interface\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:53:18.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Interface\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Interface\\ITokenService.cs",
+              "ToolTip": "D:\\StudentAssets\\Learning-App\\API\\Interface\\ITokenService.cs",
+              "RelativeToolTip": "Interface\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:50:23.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Seed.cs",
               "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Data\\Seed.cs",
               "RelativeDocumentMoniker": "Data\\Seed.cs",
@@ -107,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "UserSeedData.json",
               "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Data\\UserSeedData.json",
               "RelativeDocumentMoniker": "Data\\UserSeedData.json",
@@ -119,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 29,
               "Title": "20250402114223_added-tables.cs",
               "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Migrations\\20250402114223_added-tables.cs",
               "RelativeDocumentMoniker": "Migrations\\20250402114223_added-tables.cs",
@@ -131,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "API.csproj",
               "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\API.csproj",
               "RelativeDocumentMoniker": "API.csproj",
@@ -143,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "AppUserRole.cs",
               "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Entities\\AppUserRole.cs",
               "RelativeDocumentMoniker": "Entities\\AppUserRole.cs",
@@ -155,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 21,
               "Title": "UserRegistrationDto.cs",
               "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Controllers\\Dtos\\UserRegistrationDto.cs",
               "RelativeDocumentMoniker": "Controllers\\Dtos\\UserRegistrationDto.cs",
@@ -167,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 20,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
@@ -179,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 23,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
@@ -191,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 24,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
@@ -203,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 22,
               "Title": "BaseApiController.cs",
               "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Controllers\\BaseApiController.cs",
               "RelativeDocumentMoniker": "Controllers\\BaseApiController.cs",
@@ -215,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 25,
               "Title": "AppUsers.cs",
               "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Entities\\AppUsers.cs",
               "RelativeDocumentMoniker": "Entities\\AppUsers.cs",
@@ -227,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 26,
               "Title": "DataContext.cs",
               "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "Data\\DataContext.cs",
@@ -239,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -251,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 28,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\StudentAssets\\Learning-App\\API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
