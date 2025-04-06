@@ -14,35 +14,34 @@ public class UsersController : BaseApiController
 {
 
     private readonly IUserRepository _userRepository;
-    private readonly IMapper _mapper;
 
-    public UsersController(IUserRepository userRepository, IMapper mapper)
+    public UsersController(IUserRepository userRepository)
     {
         _userRepository = userRepository;
-        _mapper = mapper;
     }
     [AllowAnonymous]
     [HttpGet]
    public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
     {
-        var users = await _userRepository.GetUsersAsync();
-
-        var userToReturn = _mapper.Map<IEnumerable<MemberDto>>(users);
+        var users = await _userRepository.GetMembersAsync();
+         
 
         if (users == null) return NotFound();
-        return Ok(userToReturn);
+        return Ok(users);
 
     }
+
     [AllowAnonymous]
-    [HttpGet("{id:int}")]
-   public async Task<ActionResult<IEnumerable<MemberDto>>> GetUser(int id)
+    [HttpGet("{name}")]
+    public async Task<ActionResult<MemberDto>> GetUser(string name)
     {
-        var users = await _userRepository.GetUserByIdAsync(id);
+        var user = await _userRepository.GetMemberAsync(name,false);
 
-        var userToReturn = _mapper.Map<IEnumerable<MemberDto>>(users);
+        if (user == null)
+            return NotFound();
+         
 
-        if (userToReturn == null) return NotFound();
-        return Ok(userToReturn);
-
+        return Ok(user);
     }
+
 }

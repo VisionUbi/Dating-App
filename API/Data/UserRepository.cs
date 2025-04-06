@@ -1,15 +1,24 @@
 ﻿using API.Dtos;
 using API.Entities;
 using API.Interface;
+using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Data
 {
-    public class UserRepository(DataContext context) : IUserRepository
+    public class UserRepository(DataContext context, IMapper _mapper) : IUserRepository
     {
         public async Task<MemberDto?> GetMemberAsync(string username, bool isCurrentUser)
         {
-            throw new NotImplementedException();
+            return await context.Users.Where(x => x.UserName == username)
+                .ProjectTo<MemberDto>(_mapper.ConfigurationProvider).SingleOrDefaultAsync();
+        }
+
+        public async Task<IEnumerable<MemberDto>> GetMembersAsync()
+        {
+            return await context.Users
+                 .ProjectTo<MemberDto> (_mapper.ConfigurationProvider).ToListAsync();
         }
 
         public async Task<AppUser?> GetUserByIdAsync(int id)
@@ -24,7 +33,7 @@ namespace API.Data
 
         public async Task<AppUser?> GetUserByUsernameAsync(string username)
         {
-            return await context.Users.SingleOrDefaultAsync(x => x.UserName == username);
+            return await context.Users.Include(x => x.Photos).SingleOrDefaultAsync(x => x.UserName == username);
         }
 
         public async Task<IEnumerable<AppUser>> GetUsersAsync()
