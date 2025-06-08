@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, inject, OnInit } from '@angular/core';
+import { environment } from '../../environments/environment';
 import { RegisterComponent } from "../register/register.component";
 
 @Component({
@@ -12,6 +13,7 @@ import { RegisterComponent } from "../register/register.component";
 export class HomeComponent  implements OnInit {
   http = inject(HttpClient);
   users:any;
+  private baseUrl = environment.apiUrl;
   ngOnInit(): void { 
     this.getUsers();
   }
@@ -27,7 +29,7 @@ export class HomeComponent  implements OnInit {
 
   
   getUsers() {
-    this.http.get('https://localhost:5001/api/users').subscribe({
+    this.http.get(this.baseUrl + 'users').subscribe({
       next: response => this.users = response,
       error: err => console.log(err),
       complete: () => {}

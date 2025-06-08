@@ -19,7 +19,7 @@ public class UsersController : BaseApiController
     {
         _userRepository = userRepository;
     }
-    [AllowAnonymous]
+    //[AllowAnonymous]
     [HttpGet]
    public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
     {
